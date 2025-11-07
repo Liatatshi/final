@@ -1,8 +1,10 @@
 
 import Focus from "./components/focus"
+import Navbar from "./components/navbar"
 export default function App(){
   return(
     <>
+    <Navbar />
     <Focus sentence="True Focus"
 manualMode={false}
 blurAmount={5}
